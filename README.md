@@ -61,10 +61,10 @@ aistack-landing-page/
 
 ## Screenshots
 **Desktop View**  
-![Desktop View](images/aistack-desktop.png)
+![Desktop View](images/aistack-desktop.jpeg)
 
 **Mobile View**  
-![Mobile View](images/aistack-mobile.png)
+![Mobile View](images/aistack-mobile.jpeg)
 
 ## Credits
 - **Images**: Royalty-free from [Unsplash](https://unsplash.com/).
