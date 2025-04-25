@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIStack - Advanced AI SaaS Platform</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">AIStack</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faqs">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold text-white animate__animated animate__fadeIn">Empower Your Business with AIStack</h1>
+            <p class="lead text-white animate__animated animate__fadeIn" style="animation-delay: 0.3s;">Advanced AI tools for analytics, automation, and growth.</p>
+            <a href="#services" class="btn btn-primary btn-lg mt-3 animate__animated animate__zoomIn" style="animation-delay: 0.6s;">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Our AI-Powered Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card glass-card">
+                        <img data-src="images/service1.jpg" class="img-fluid rounded mb-3 lazy" alt="Analytics">
+                        <h4>AI Analytics</h4>
+                        <p>Unlock actionable insights with real-time data analysis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card glass-card">
+                        <img data-src="images/service2.jpg" class="img-fluid rounded mb-3 lazy" alt="Automation">
+                        <h4>Automation</h4>
+                        <p>Streamline workflows with intelligent automation tools.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card glass-card">
+                        <img data-src="images/service3.jpg" class="img-fluid rounded mb-3 lazy" alt="Growth">
+                        <h4>Growth AI</h4>
+                        <p>Boost revenue with predictive marketing strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4">About AIStack</h2>
+                    <p class="lead">AIStack empowers businesses with cutting-edge AI solutions, delivering unmatched efficiency and innovation.</p>
+                    <div class="row mt-4">
+                        <div class="col-6 text-center">
+                            <h3 class="counter" data-target="5000">0</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h3 class="counter" data-target="100">0</h3>
+                            <p>AI Tools</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img data-src="images/about-bg.jpg" class="img-fluid rounded lazy" alt="About AIStack">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Latest Blog Posts</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="blog-card">
+                        <img data-src="images/blog1.jpg" class="img-fluid lazy" alt="Blog 1">
+                        <div class="blog-content">
+                            <h5>AI in 2025</h5>
+                            <p>Discover the future of artificial intelligence.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="blog-card">
+                        <img data-src="images/blog2.jpg" class="img-fluid lazy" alt="Blog 2">
+                        <div class="blog-content">
+                            <h5>Automation Tips</h5>
+                            <p>Boost efficiency with AI automation.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="blog-card">
+                        <img data-src="images/blog3.jpg" class="img-fluid lazy" alt="Blog 3">
+                        <div class="blog-content">
+                            <h5>Growth Hacks</h5>
+                            <p>Leverage AI for business growth.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Reviews Section -->
+    <section id="reviews" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Client Reviews</h2>
+            <div id="review-slider" class="row">
+                <div class="col-md-4">
+                    <div class="review-card glass-card">
+                        <img data-src="images/review1.jpg" class="rounded-circle mb-3 lazy" alt="Client 1" style="width: 60px;">
+                        <p>"AIStack transformed our analytics process!"</p>
+                        <h5>Jane D., CEO</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card glass-card">
+                        <img data-src="images/review2.jpg" class="rounded-circle mb-3 lazy" alt="Client 2" style="width: 60px;">
+                        <p>"The automation tools saved us hours!"</p>
+                        <h5>Mark S., CTO</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card glass-card">
+                        <img data-src="images/review3.jpg" class="rounded-circle mb-3 lazy" alt="Client 3" style="width: 60px;">
+                        <p>"The Incredible support and results!"</p>
+                        <h5>Lisa T., Founder</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            What is AIStack?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            AIStack is a SaaS platform offering AI-powered tools for analytics, automation, and growth.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Is there a free trial?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we offer a 14-day free trial for all plans.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            How secure is AIStack?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We use industry-standard encryption and compliance protocols.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Pricing Plans</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="pricing-card glass-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Starter</h5>
+                            <h3>$29/mo</h3>
+                            <ul class="list-unstyled">
+                                <li>Basic Analytics</li>
+                                <li>5 Automations</li>
+                                <li>Email Support</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="pricing-card glass-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pro</h5>
+                            <h3>$79/mo</h3>
+                            <ul class="list-unstyled">
+                                <li>Advanced Analytics</li>
+                                <li>Unlimited Automations</li>
+                                <li>Priority Support</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="pricing-card glass-card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Enterprise</h5>
+                            <h3>$199/mo</h3>
+                            <ul class="list-unstyled">
+                                <li>Custom Solutions</li>
+                                <li>Dedicated Manager</li>
+                                <li>24/7 Support</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Get in Touch</h2>
+            <form id="contact-form" class="mx-auto" style="max-width: 600px;">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>AIStack</h5>
+                    <p>Empowering businesses with AI-driven solutions.</p>
+                </div>
+                <div class="col-md-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#services" class="text-white">Services</a></li>
+                        <li><a href="#about" class="text-white">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#faqs" class="text-white">FAQs</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <form>
+                        <input type="email" class="form-control mb-2" placeholder="Your Email">
+                        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center">
+                <p>© 2025 AIStack. All rights reserved.</p>
+                <div>
+                    <a href="#" class="text-white mx-2">Facebook</a>
+                    <a href="#" class="text-white mx-2">Twitter</a>
+                    <a href="#" class="text-white mx-2">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
